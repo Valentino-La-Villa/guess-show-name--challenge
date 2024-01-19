@@ -1,4 +1,4 @@
-# React + Vite
+# 'Guess the TV Show' challenge
 
 The assignment and rules are as follows:
 
