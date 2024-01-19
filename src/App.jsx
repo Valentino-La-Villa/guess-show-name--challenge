@@ -117,7 +117,7 @@ function App() {
     let newRandomMovieIndex = Math.floor(Math.random()*20)
 
     setSelectedMovie(prev => {
-      if (prev?.id != localMovieDatabase[newRandomMovieIndex].id) { // Si la película rolleada no es la misma a la anterior, shippeala
+      if (prev?.id != localMovieDatabase[newRandomMovieIndex].id) { // Si la película seleccionada al azar no es la misma a la anterior, shippeala
         return localMovieDatabase[newRandomMovieIndex]
       }
       else if (newRandomMovieIndex == 0) {return localMovieDatabase[newRandomMovieIndex+1]} // Si es la misma a la anterior y es de index 0, devolvé la siguiente
